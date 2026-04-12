@@ -7,17 +7,18 @@ set -e
 REPO="kuetix/wsl-skills"
 BRANCH="main"
 BASE_URL="https://raw.githubusercontent.com/${REPO}/${BRANCH}/skills"
-TARGET="${1:-.claude/skills}"
+TARGET="${1:-.claude/skills/wsl}"
 
 SKILLS=(
-  "write-wsl.md"
-  "write-swsl.md"
-  "write-service-transition.md"
-  "explain-wsl.md"
-  "debug-wsl.md"
-  "write-parser-test.md"
   "convert-wsl-swsl.md"
-)
+  "debug-wsl.md"
+  "explain-wsl.md"
+  "write-module-transition.md"
+  "write-parser-test.md"
+  "write-service-transition.md"
+  "write-swsl.md"
+  "write-wsl.md"
+)""
 
 mkdir -p "$TARGET"
 
