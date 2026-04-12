@@ -4,25 +4,49 @@
 
 ## Install
 
-### One-liner (into current project)
+### Plugin Marketplace (Recommended)
+
+Add to your Claude Code `settings.json`:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "wsl-skills": {
+      "source": {
+        "source": "github",
+        "repo": "kuetix/wsl-skills"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "wsl-skills@wsl-skills": true
+  }
+}
+```
+
+Then restart Claude Code and the skills will be available.
+
+### Legacy Methods
+
+**One-liner (into current project)**
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/kuetix/wsl-skills/main/install.sh | bash
 ```
 
-### Into a specific project
+**Into a specific project**
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/kuetix/wsl-skills/main/install.sh | bash -s -- /path/to/project/.claude/skills
 ```
 
-### Global (all projects)
+**Global (all projects)**
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/kuetix/wsl-skills/main/install.sh | bash -s -- ~/.claude/skills
 ```
 
-### Manual
+**Manual**
 
 Copy the `.md` files from the `skills/` directory into your project's `.claude/skills/` folder.
 

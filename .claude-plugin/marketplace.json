@@ -1,0 +1,66 @@
+{
+  "marketplace": {
+    "name": "wsl-skills",
+    "displayName": "Kuetix WSL Skills",
+    "description": "Claude Code skills for the Kuetix Workflow Specific Language",
+    "repository": "https://github.com/kuetix/wsl-skills",
+    "skills": [
+      {
+        "id": "write-wsl",
+        "name": "Write WSL",
+        "description": "Write workflows in WSL (verbose state machine syntax)",
+        "path": "skills/write-wsl.md",
+        "tags": ["wsl", "workflow", "write"]
+      },
+      {
+        "id": "write-swsl",
+        "name": "Write SWSL",
+        "description": "Write workflows in SWSL (simplified chaining syntax)",
+        "path": "skills/write-swsl.md",
+        "tags": ["swsl", "workflow", "write", "simplified"]
+      },
+      {
+        "id": "write-service-transition",
+        "name": "Write Service Transition",
+        "description": "Create Go service transitions (action handlers)",
+        "path": "skills/write-service-transition.md",
+        "tags": ["service", "transition", "go", "write"]
+      },
+      {
+        "id": "write-module-transition",
+        "name": "Write Module Transition",
+        "description": "Create module transitions for complex workflow orchestration",
+        "path": "skills/write-module-transition.md",
+        "tags": ["module", "transition", "orchestration", "write"]
+      },
+      {
+        "id": "explain-wsl",
+        "name": "Explain WSL",
+        "description": "Analyze and explain what a workflow does",
+        "path": "skills/explain-wsl.md",
+        "tags": ["wsl", "workflow", "explain", "analysis"]
+      },
+      {
+        "id": "debug-wsl",
+        "name": "Debug WSL",
+        "description": "Debug parsing errors and runtime issues in WSL workflows",
+        "path": "skills/debug-wsl.md",
+        "tags": ["wsl", "workflow", "debug", "error"]
+      },
+      {
+        "id": "write-parser-test",
+        "name": "Write Parser Test",
+        "description": "Write tests for the WSL parser",
+        "path": "skills/write-parser-test.md",
+        "tags": ["wsl", "test", "parser"]
+      },
+      {
+        "id": "convert-wsl-swsl",
+        "name": "Convert WSL/SWSL",
+        "description": "Convert between WSL and SWSL syntax",
+        "path": "skills/convert-wsl-swsl.md",
+        "tags": ["wsl", "swsl", "convert", "syntax"]
+      }
+    ]
+  }
+}

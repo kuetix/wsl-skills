@@ -1,0 +1,14 @@
+{
+  "name": "wsl-skills",
+  "displayName": "Kuetix WSL Skills",
+  "version": "1.0.0",
+  "author": "Kuetix",
+  "description": "Claude Code skills for writing, debugging, and explaining Kuetix Workflow Specific Language (WSL) workflows",
+  "license": "MIT",
+  "repository": "https://github.com/kuetix/wsl-skills",
+  "homepage": "https://github.com/kuetix/wsl-skills",
+  "tags": ["kuetix", "wsl", "swsl", "workflow", "language"],
+  "requirements": {
+    "minClaudeCodeVersion": "1.0.0"
+  }
+}
