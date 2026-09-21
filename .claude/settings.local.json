@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(bash -n /Users/anare/Projects/kuetix/wsl-skills/install.sh)"
+    ]
+  },
+  "enabledPlugins": {}
+}
